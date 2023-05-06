@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Блок 1.4: Продвинутая стилизация</title>
+</head>
+<body> 
+  <nav class="menu">
+    <div class="menu__header">
+      <button class="menu__button menu__button--escape"></button>
+      <div class="logo"></div>
+      <button class="menu__button menu__button--search"></button>
+    </div>
+    <div class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-list__item"><button class="navigation-list__button navigation-list__button--active">Ремонт техники</button></li>
+        <li class="navigation-list__item"><button class="navigation-list__button">Услуги и сервисы</button></li>
+        <li class="navigation-list__item"><button class="navigation-list__button">Корпоративным клиентам</button></li>
+        <li class="navigation-list__item"><button class="navigation-list__button">Продавцам техники</button></li>
+        <li class="navigation-list__item"><button class="navigation-list__button">Партнерам</button></li>
+        <li class="navigation-list__item"><button class="navigation-list__button">Производителям</button></li>
+        <li class="navigation-list__item"><button class="navigation-list__button">Наши сервисные центры</button></li>
+        <li class="navigation-list__item"><button class="navigation-list__button">Контакты</button></li>
+      </ul>
+      <div class="footer">
+        <button class="menu__button menu__button--footer menu__button--call"></button>
+        <button class="menu__button menu__button--footer menu__button--message"></button>
+        <button class="menu__button menu__button--profile"></button>
+        <a class="footer__link footer__link--mail" href="mailto: mail@cps.com">mail@cps.com</a>
+        <a class="footer__link footer__link--tel" href="tel: 8 800 890 8900">8 800 890 8900</a>
+        <form action="">
+          <input name="lang" id="russian" type="radio" checked>
+          <label for="russian">RU</label>
+          <input name="lang" id="english" type="radio">
+          <label for="english">EN</label>
+          <input name="lang" id="china" type="radio">
+          <label for="china">CH</label> 
+        </form> 
+      </div>
+    </div>
+  </nav> 
+</body>
+</html>
