@@ -8,13 +8,13 @@
   <title>Блок 1.4: Продвинутая стилизация</title>
 </head>
 <body> 
-  <nav class="menu">
+  <article class="menu">
     <div class="menu__header">
       <button class="menu__button menu__button--escape"></button>
-      <div class="logo"></div>
+      <a class="logo" href="#"> <img src="./img/logo.svg" alt="Логотип"></a>
       <button class="menu__button menu__button--search"></button>
     </div>
-    <div class="navigation">
+    <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-list__item"><button class="navigation-list__button navigation-list__button--active">Ремонт техники</button></li>
         <li class="navigation-list__item"><button class="navigation-list__button">Услуги и сервисы</button></li>
@@ -32,15 +32,12 @@
         <a class="footer__link footer__link--mail" href="mailto: mail@cps.com">mail@cps.com</a>
         <a class="footer__link footer__link--tel" href="tel: 8 800 890 8900">8 800 890 8900</a>
         <form action="">
-          <input name="lang" id="russian" type="radio" checked>
-          <label for="russian">RU</label>
-          <input name="lang" id="english" type="radio">
-          <label for="english">EN</label>
-          <input name="lang" id="china" type="radio">
-          <label for="china">CH</label> 
-        </form> 
+          <label><input class="lang__switch" name="lang" type="radio" checked><span>RU</span></label>
+          <label><input class="lang__switch" name="lang" type="radio"><span>EN</span></label>
+          <label><input class="lang__switch" name="lang" type="radio"><span>CH</span></label> 
+        </form>
       </div>
-    </div>
-  </nav> 
+    </nav>
+  </article> 
 </body>
 </html>
